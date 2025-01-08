@@ -2,7 +2,8 @@
 
 # Unduh binary miner
 wget -q https://github.com/Project-InitVerse/ini-miner/releases/download/v1.0.0/iniminer-linux-x64
-chmod +x /root/iniminer-linux-x64
+cd /root
+chmod +x iniminer-linux-x64
 
 # Buat direktori iniminer dan pindah ke sana
 mkdir -p iniminer
